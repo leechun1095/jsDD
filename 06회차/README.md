@@ -344,8 +344,6 @@ const obj = {};
 console.log(obj.constructor === Object); // true
 ```
 
-![스크린샷 2022-10-23 오후 8.23.27.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f1c3606e-2db0-4b82-ab52-b954d447c07f/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-10-23_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_8.23.27.png)
-
 2번에서 Object 생성자 함수에 인수를 전달하지 않거나 undefined 또는 null 을 인수로 전달하면서 호출하면 내부적으로 OrdinaryObjectCreate 를 호출하여 `Object.prototype` 을 프로토타입으로 갖는 빈 객체를 생성한다.
 
 ```jsx
