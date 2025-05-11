@@ -485,6 +485,24 @@ function Person(name) {
 const me = new Person('Lee');
 ```
 
+```jsx
+// p.284 그림 19-17
+function Person(name) {
+  this.name = name;
+}
+
+// 프로토타입 메서드
+Person.prototype.sayHello = function () {
+  console.log(`Hi! My name is ${this.name}`);
+};
+
+const me = new Person('Lee');
+const you = new Person('Kim');
+
+me.sayHello();  // Hi! My name is Lee
+you.sayHello(); // Hi! My name is Kim
+```
+
 ## 19.7 프로토타입 체인
 
 자바스크립트 엔진은 프로토타입 체인을 따라 프로퍼티/메서드를 검색한다.
