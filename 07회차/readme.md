@@ -20,14 +20,9 @@
 
 ## 21.2 표준 빌트인 객체
 
-자바스크립트는 40여 개의 [표준 빌트인 객체](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects)를 제공한다. 생성자 함수 객체는 프로토타입 메서드, 정적 메서드를 제공하고, 생성자 함수 객체가 아닌 표준 빌트인 객체는 정적 메서드만 제공한다.
+자바스크립트는 40여 개의 표준 빌트인 객체를 제공한다. 생성자 함수 객체는 프로토타입 메서드, 정적 메서드를 제공하고, 생성자 함수 객체가 아닌 표준 빌트인 객체는 정적 메서드만 제공한다.
 
 **Math, Reflect, JSON 을 제외한 표준 빌트인 객체는 모두 생성자 함수 객체**로 ****표준 빌트인 객체인 String, Number, Boolean, Function, Array, Date 등 생성자 함수로 호출하여 인스턴스를 생성할 수 있다.
-
-<img width="540" alt="스크린샷 2022-10-23 오후 6 50 24" src="https://user-images.githubusercontent.com/29244798/197396299-5bc5de9d-6298-4e59-b431-1c32de9f113c.png">
-
-<img width="500" alt="스크린샷 2022-10-23 오후 8 01 26" src="https://user-images.githubusercontent.com/29244798/197396306-d46457ca-561a-448f-8baa-990bbc1478dd.png">
-
 
 ```jsx
 // String 생성자 함수에 의한 String 객체 생성
@@ -489,8 +484,6 @@ parseInt(' 60 '); // -> 60
 ```
 
 **encodeURI / decodeURI**
-
-![스크린샷 2022-10-23 오후 7.03.41.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/70f5934e-a39e-4052-926b-a35d0442a7b3/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-10-23_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_7.03.41.png)
 
 **encodeURI 함수**는 완전한 `URI Uniform Resource Identifier`를 문자열로 전달받아 이스케이프 처리를 위해 인코딩한다.`URI`는 인터넷에 있는 자원을 나타내는 유일한 주소를 말한다.
 
